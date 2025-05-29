@@ -51,7 +51,7 @@ class LoginPage extends StatelessWidget {
                         onPressed: () {
                           context.read<AuthBloc>().add(LoginWithSpotifyEvent());
                         },
-                        child: const Text('Iniciar sesddión con Spotify'),
+                        child: const Text('Iniciar sesión con Spotify'),
                       ),
                     ],
                   );
