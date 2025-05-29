@@ -1,0 +1,46 @@
+name: castor_exam
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  dio: ^5.8.0+1
+  equatable: ^2.0.7
+  floor: ^1.5.0
+  flutter_bloc: ^9.1.1
+  flutter_hooks: ^0.21.2
+  get_it: ^8.0.3
+  intl: ^0.20.2
+  flutter_web_auth: ^0.6.0
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.5
+  audioplayers: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  retrofit_generator: ^9.1.5
+  floor_generator: ^1.5.0
+  build_runner: ^2.4.6 
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/login_background.jpg
+    - assets/audio/sound1.mp3
+    - assets/audio/sound2.mp3
+    - assets/audio/sound3.mp3
+    - assets/audio/sound4.mp3
+    - assets/audio/sound5.mp3
